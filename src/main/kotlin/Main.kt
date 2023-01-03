@@ -1,12 +1,10 @@
 import no3.No3Solution
-
+import no1.No1Solution
 
     fun no1Test() {
-
-    }
-
-    fun no2Test() {
-
+        val no1 = No1Solution()
+        no1.no1Solution()
+        println("-----------no1-----------")
     }
 
     fun no3Test() {
@@ -18,11 +16,7 @@ import no3.No3Solution
     }
 
     fun main() {
-        /*val no1 = No1Solution()
-        no1.no1Solution()*/
-
-        val no3 = No3Solution()
-        val response = no3.factorial(1000000)
-        println(response.toString())
+            no1Test()
+            no3Test()
     }
 
